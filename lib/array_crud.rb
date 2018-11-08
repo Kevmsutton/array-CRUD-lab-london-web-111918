@@ -1,16 +1,17 @@
 def create_an_empty_array
-  
+  array = []
 end
 
 def create_an_array
-  
+  array = ["1el", "2el", "3el", "4el"]
 end
 
 def add_element_to_end_of_array(array, element)
-  
+  array.push(element)
 end
 
 def add_element_to_start_of_array(array, element)
+  array.unshift(element)
   
 end
 
